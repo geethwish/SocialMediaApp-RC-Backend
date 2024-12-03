@@ -1,5 +1,6 @@
 import express, { Application } from "express";
 import morgan from "morgan";
+import cors from "cors";
 
 // Api Routes
 import postRoutes from "./routes/postRoutes";
@@ -7,9 +8,9 @@ import commentRoutes from "./routes/commentRoutes";
 
 const app: Application = express();
 const PORT: number = 3001;
-
 app.use(express.json());
 app.use(morgan("dev"));
+app.use(cors());
 
 app.use("/api/posts", postRoutes);
 app.use("/api/comments", commentRoutes);

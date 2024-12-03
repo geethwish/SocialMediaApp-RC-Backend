@@ -16,6 +16,7 @@
   "dependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.1",
+    "cors": "^2.8.5",
     "express": "^4.21.1",
     "lokijs": "^1.5.12",
     "morgan": "^1.10.0",
@@ -24,6 +25,7 @@
     "uuid": "^11.0.3"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/lokijs": "^1.5.14",
     "@types/morgan": "^1.9.9",
     "nodemon": "^3.1.7"
