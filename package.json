@@ -17,10 +17,15 @@
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.1",
     "express": "^4.21.1",
+    "lokijs": "^1.5.12",
+    "morgan": "^1.10.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
+    "@types/lokijs": "^1.5.14",
+    "@types/morgan": "^1.9.9",
     "nodemon": "^3.1.7"
   }
 }
