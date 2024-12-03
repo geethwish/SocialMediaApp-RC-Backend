@@ -68,3 +68,7 @@ SocialMediaApp-RC-Backend/
 - **Node.js**: v18.x or higher
 - **NPM**: v6.x or higher
 - **MongoDB**: v4.x or higher
+
+## API Documentation
+
+You can access the API documentation at [http://localhost:3001/api-docs/](http://localhost:3001/api-docs/)
